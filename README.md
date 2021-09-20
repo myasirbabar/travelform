@@ -8,7 +8,7 @@ A form built in php framework using [Xampp](https://www.apachefriends.org/downlo
 It verifies customer and inserts the record into the local database. 
 
 ### Test
-I have hosted this project and you can check it at [Travel Form](mybtravelcomapny.000webhostapp.com).
+I have hosted this project and you can check it at [Travel Form](https://mybtravelcomapny.000webhostapp.com).
 
 ---------------
 <a href="https://www.linkedin.com/in/myb1">
