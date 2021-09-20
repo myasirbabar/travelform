@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+    /* background-color: rgb(183, 124, 238); */
+}
+.container h3{
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 40px;
+}
+p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+}
+input, textarea, select{
+    font-weight: bold;  
+    background-color: whitesmoke;
+    display: block;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 16px;
+}
+#verification{
+    margin-top: 10%;
+}
+#ver_code{
+    width: 40%;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    background-color: purple;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background: #5757d1;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+.submitmsg{
+    color: green;
+}
