@@ -5,7 +5,7 @@ Travel Form Build in PhP
 
 ### Description
 A form built in php framework using [Xampp](https://www.apachefriends.org/download.html). It is locally connected to XAMPP mysql database.
-It verifies customer and inserts the record into the local database. 
+It **verifies** customer through **email** and inserts the record into mysql database. Also a **Confirmation** message is sent on registered email. 
 
 ### Test
 I have hosted this project and you can check it at [Travel Form](https://mybtravelcomapny.000webhostapp.com).
